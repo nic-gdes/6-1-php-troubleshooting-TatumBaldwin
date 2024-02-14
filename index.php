@@ -41,7 +41,7 @@
   function greet($name) {
     echo "Hello, " . $name;
   };
-  greet("tatum");
+  greet("Brian");
 ?>
 
 <hr/>
@@ -55,7 +55,7 @@
   } else {
     echo "You are not 18 years old.";
   }
-?>
+?>   
 
 <hr/>
 <h3>Question 7</h3>
