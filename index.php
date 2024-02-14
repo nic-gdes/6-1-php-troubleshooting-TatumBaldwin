@@ -5,7 +5,7 @@
   echo "Hello back";
 ?>
 
-<hr />
+<hr/>
 <h3>Question 2</h3>
 
 <?php
@@ -14,7 +14,7 @@
   echo $greeting;
 ?>
 
-<hr />
+<hr/>
 <h3>Question 3</h3>
 
 <?php
@@ -24,7 +24,7 @@
   echo "Name: " . $firstName . " " . $lastName;
 ?>
 
-<hr />
+<hr/>
 <h3>Question 4</h3>
 
 <?php
@@ -33,7 +33,7 @@
   echo $colors[1];
 ?>
 
-<hr />
+<hr/>
 <h3>Question 5</h3>
 
 <?php
@@ -44,20 +44,20 @@
   greet("tatum");
 ?>
 
-<hr />
+<hr/>
 <h3>Question 6</h3>
 
 <?php
   // Question 6: Be careful, this will not result in a loud error, it's just going to be wrong. Read the code to figure out what it SHOULD do, and make sure it does that.
   $age = 20;
-  if ($age = 18) {
+  if ($age <= 18) {
       echo "You are 18 years old.";
   } else {
     echo "You are not 18 years old.";
   }
 ?>
 
-<hr />
+<hr/>
 <h3>Question 7</h3>
 
 <?php
@@ -66,7 +66,7 @@
   echo 'Count: ' . ++$count;
 ?>
 
-<hr />
+<hr/>
 <h3>Question 8</h3>
 
 <?php
@@ -75,7 +75,7 @@
   echo "GREETINGS";
 ?>
 
-<hr />
+<hr/>
 <h3>Question 9</h3>
 
 <?php
@@ -83,10 +83,10 @@
   function sayHello() {
     echo "Hello!";
   }
-  sayHello("John");
+  sayHello();
 ?>
 
-<hr />
+<hr/>
 <h3>Question 10</h3>
 
 <?php
